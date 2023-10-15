@@ -1,6 +1,6 @@
 import requests
 
-req = 'красная кепка'
+req = 'трус'
 url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req
 r = requests.get(url)
 text = r.text
@@ -10,6 +10,7 @@ codes = []
 brands = []
 discounts = []
 prices = []
+countries = []
 
 ind_1 = text.find('найдено') + 8
 ind_2 = text.find('результатов')
@@ -78,6 +79,12 @@ for i in range(pages):
 
         else:
             discounts.append('0')
+
+        country_1 = item.find('":"Страна производства","value":"') + 33
+        country = item[country_1:]
+        country_2 = country.find('"}]')
+        country = country[:country_2]
+        countryies.append(country)
 
 
 '''
