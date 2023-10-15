@@ -32,9 +32,9 @@ for i in range(pages):
     print(text)
 
     for j in range(pag):
-        start = text.find('<div class="x-product-card-description__microdata-wrap">')
+        start = text.find('<div class="x-product-card__card">')
         block = text[start + 56:]
-        end = block.find('<img')
+        end = block.find('<div class="x-product-card__card">')
         block = block[:end]
         link_1 = block.find('<a href=') + 9
         link_2 = block.find('class="x-product-card__link') - 2
