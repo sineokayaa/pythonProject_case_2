@@ -1,6 +1,6 @@
 import requests
 
-req = 'красная кепкам женская'
+req = 'носки жёлтые'
 url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req
 r = requests.get(url)
 text = r.text
@@ -19,8 +19,10 @@ if res < 60:
 else:
     pag = 60
 
+
 for i in range(pages):
-    url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&sort=price_asc&pages=' + str(i + 1)
+    url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&sort=price_asc&page=' + str(i + 1)
+    #print(url)
     r = requests.get(url)
     text = r.text
     # print(text)
@@ -55,6 +57,8 @@ for i in range(pages):
         info_1 = item.find('user: {')
         info_2 = item.find('request: {')
         info = item[info_1:info_2]
+
+
 
         brand_1 = info.find('"seo_tail":"brand-') + 18
         brand = info[brand_1:]
@@ -96,12 +100,12 @@ for i in range(pages):
         text = text[start:]
         text = text[end:]
 
-        table[code] = [price, name, brand, country, discount]
-        #print(table)
+        table[code] = [name, brand, country, price, discount]
+
 
 #print(table)
 
-'''with open('table.txt', 'w') as f:
-    print('Артикул', 'Наименование', 'Бренд', 'Страна производства', 'Скидка', 'Цена', file=f)
+with open('table.txt', 'w') as f:
+    print('Артикул', 'Наименование', 'Бренд', 'Страна производства', 'Цена', 'Скидка', file=f)
     for key, value in table.items():
-        print(*value, key, file=f)'''
+        print(key, *value,  file=f)
