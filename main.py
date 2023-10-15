@@ -1,13 +1,11 @@
 import requests
 req = input('Введите ваш запрос ')
-req = req.replace(' ', '%20')
-url = 'https://www.lamoda.ru/catalogsearch/result/?q='+req+'&submit=y&gender_section=women'
+url = 'https://www.lamoda.ru/catalogsearch/result/?q='+req
 r = requests.get(url)
 text = r.text
+#print(text)
+
+
+#ind = text.find('<span class="d-multifilters-skeleton__checkbox">')
+#text = text[ind:]
 print(text)
-'''
-text = text.split('brand')
-for i in range(len(text)):
-    print(text[i],i)
-print(text)
-'''
