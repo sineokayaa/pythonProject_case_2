@@ -1,6 +1,6 @@
 import requests
 
-req = 'трус'
+req = 'красная кепка'
 url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req
 r = requests.get(url)
 text = r.text
@@ -40,12 +40,13 @@ for i in range(pages):
         block = block[:end]
         link_1 = block.find('<a href=') + 9
         link = block[link_1:]
+        #print(block)
         link_2 = link.find('class="x-product-card__link') - 2
         link = 'https://www.lamoda.ru/' + link[:link_2]
-        '''name_1 = block.find('<div class="x-product-card-description__product-name">') + 55
+        name_1 = block.find('<div class="x-product-card-description__product-name">') + 55
         name_2 = block.find('</div></div></div></a>')
         name = block[name_1:name_2]
-        names.append(name)'''
+        names.append(name)
         text = text[start:]
         text = text[end:]
 
@@ -64,6 +65,7 @@ for i in range(pages):
         price_2 = price.find(',')
         price = price[:price_2]
         prices.append(price)
+
         if '"type":"discount"' in info:
             discount_1 = info.find(',"badges":[{"text":"') + 20
             discount = info[discount_1:]
@@ -73,7 +75,7 @@ for i in range(pages):
 
         else:
             discounts.append('0')
-print(prices)
+
 
 '''
 ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
