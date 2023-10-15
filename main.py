@@ -14,6 +14,7 @@ if res % 60 == 0:
     pages = res // 60
 else:
     pages = res // 60 + 1
+
 if res < 60:
     pag = res
 else:
@@ -49,7 +50,7 @@ for i in range(pages):
         link = 'https://www.lamoda.ru/' + link[:link_2]
 
         #print(link)
-        #print(code)
+        print(code)
 
         item = requests.get(link)
         item = item.text
