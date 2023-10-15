@@ -20,7 +20,7 @@ else:
     pag = 60
 
 for i in range(pages):
-    url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&pages=' + str(i + 1)
+    url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&sort=price_asc&pages=' + str(i + 1)
     r = requests.get(url)
     text = r.text
     # print(text)
@@ -99,7 +99,9 @@ for i in range(pages):
         table[code] = [price, name, brand, country, discount]
         #print(table)
 
-with open('table.txt', 'w') as f:
+#print(table)
+
+'''with open('table.txt', 'w') as f:
     print('Артикул', 'Наименование', 'Бренд', 'Страна производства', 'Скидка', 'Цена', file=f)
     for key, value in table.items():
-        print(*value, key, file=f)
+        print(*value, key, file=f)'''
