@@ -52,7 +52,11 @@ link_2 = text.find('class="x-product-card__link') - 2
 link = 'https://www.lamoda.ru' + text[link_1:link_2]
 item = requests.get(link)
 item = item.text
-print(item)
+#print(item)
+item_ind = item.find('<div class="popup auth-popup hidden"')
+item = item[item_ind:]
+print(item.find('Страна производства'))
+
 '''
 name_1 = text.find('<div class="x-product-card-description__product-name">') + 54
 name_2 = text.find('</div></div></div></a>')
