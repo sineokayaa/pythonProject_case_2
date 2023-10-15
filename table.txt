@@ -1,0 +1,23 @@
+Артикул Наименование Бренд Страна производства Скидка Цена
+MP002XU00P9J Кепка  stetson Китай 0 9590
+MP002XW00UT8 Бейсболка  jlab Китай 0 959
+MP002XW1G8N9 Кепка  opium Китай 40 890
+RTLACO928601 Бейсболка ХК Локомотив Ярославль atributikaclub Китай 59 881
+RTLACX471001 Козырек  moschino Италия 40 8219
+MP002XW1COE6 Кепка FIFI canoe Россия 0 7200
+MP002XW160I0 Кепка  antar Россия 0 6390
+MP002XU0363N Бейсболка  stetson Китай 0 5490
+MP002XW088WF Бейсболка  anymalls Россия 34 500
+MP002XU03KJT Кепка  herman Италия 0 4990
+MP002XW0Y6G8 Кепка с ушками landre Россия 0 4790
+MP002XW00QTI Кепка  siringa Россия 7 4190
+MP002XU0DIE3 Бейсболка  goorinbrothers Китай 0 3990
+MP002XW0L17J Кепка  siringa Россия 26 3690
+MP002XW0JW3Z Кепка  landre Россия 0 2390
+MP002XW0YVK5 Бейсболка  fabretti Китай 12 2190
+MP002XU04ARV Бейсболка  be-snazzy Польша 20 1999
+MP002XW13GKQ Бейсболка  fabretti Китай 27 1949
+MP002XU05698 Бейсболка  pfkcska Китай 0 1790
+RTLACC441801 Кепка  levelpro Россия 59 1400
+MP002XW0JETM Бейсболка  flioraj Россия 45 1099
+RTLACT251601 Бейсболка  karllagerfeld Китай 0 10100

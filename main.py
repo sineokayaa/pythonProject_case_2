@@ -1,6 +1,6 @@
 import requests
 
-req = 'трус'
+req = 'красная кепкам женская'
 url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req
 r = requests.get(url)
 text = r.text
@@ -61,7 +61,6 @@ for i in range(pages):
         price_2 = price.find(',')
         price = price[:price_2]
 
-
         if '"type":"discount"' in info:
             discount_1 = info.find(',"badges":[{"text":"') + 20
             discount = info[discount_1:]
@@ -73,14 +72,15 @@ for i in range(pages):
 
         country_1 = item.find('":"Страна производства","value":"') + 33
         country = item[country_1:]
-        country_2 = country.find('"}]')
+        country_2 = country.find('"}')
         country = country[:country_2]
-
 
         text = text[start:]
         text = text[end:]
-        table[price] = [code,name,brand,country,discount]
+        table[price] = [code, name, brand, country, discount]
 
 table = dict(sorted(table.items(), reverse=True))
-print(table)
-mlmlb d
+with open('table.txt', 'w') as f:
+    print('Артикул', 'Наименование', 'Бренд', 'Страна производства', 'Скидка', 'Цена', file=f)
+    for key, value in table.items():
+        print(*value, key, file=f)
