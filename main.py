@@ -1,6 +1,6 @@
 import requests
 
-req = 'носки жёлтые'
+req = input('Введите ваш запрос: ')
 url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req
 r = requests.get(url)
 text = r.text
@@ -32,6 +32,13 @@ for i in range(pages):
     ind_2 = text.find('data-form-action-login="/customer/account/login/"')
     text = text[ind_1:ind_2]
 
+    if res < 60:
+        pag = res
+    else:
+        pag = 60
+
+    res -= pag
+
     for j in range(pag):
         start = text.find('<div class="x-product-card__card">')
         block = text[start + 34:]
@@ -50,7 +57,7 @@ for i in range(pages):
         link = 'https://www.lamoda.ru/' + link[:link_2]
 
         #print(link)
-        print(code)
+        #print(code)
 
         item = requests.get(link)
         item = item.text
