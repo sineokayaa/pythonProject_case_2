@@ -11,10 +11,12 @@ if res % 60 == 0:
     pages = res // 60
 else:
     pages = res // 60 + 1
-
+'''
 for i in range(pages):
     url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&pages=' + str(i + 1)
-    print(url)
-#ind = text.find('<span class="d-multifilters-skeleton__checkbox">')
-#text = text[ind:]
-#print(text)
+    r = requests.get(url)
+    text = r.text
+'''
+ind = text.find('<span class="d-multifilters-skeleton__checkbox">')
+text = text[ind:]
+print(text)
