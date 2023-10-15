@@ -5,12 +5,7 @@ url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req
 r = requests.get(url)
 text = r.text
 
-names = []
-codes = []
-brands = []
-discounts = []
-prices = []
-countries = []
+table = {}
 
 ind_1 = text.find('найдено') + 8
 ind_2 = text.find('результатов')
@@ -44,15 +39,8 @@ for i in range(pages):
         link_2 = link.find('class="x-product-card__link') - 2
         code = link[3:link_2]
         end_code = code.find('/')
-        code = code[:end_code]
-        codes.append(code.upper())
+        code = code[:end_code].upper()
         link = 'https://www.lamoda.ru/' + link[:link_2]
-        name_1 = block.find('<div class="x-product-card-description__product-name">') + 55
-        name_2 = block.find('</div></div></div></a>')
-        name = block[name_1:name_2]
-        names.append(name)
-        text = text[start:]
-        text = text[end:]
 
         item = requests.get(link)
         item = item.text
@@ -63,51 +51,37 @@ for i in range(pages):
         brand = info[brand_1:]
         brand_2 = brand.find('"title":') - 2
         brand = brand[:brand_2]
-        brands.append(brand)
+
+        name_1 = block.find('<div class="x-product-card-description__product-name">') + 55
+        name_2 = block.find('</div></div></div></a>')
+        name = block[name_1:name_2]
+
         price_1 = item.find(',"price":') + 9
         price = item[price_1:]
         price_2 = price.find(',')
         price = price[:price_2]
-        prices.append(price)
+
 
         if '"type":"discount"' in info:
             discount_1 = info.find(',"badges":[{"text":"') + 20
             discount = info[discount_1:]
             discount_2 = discount.find('","type":"discount"')
             discount = discount[:discount_2]
-            discounts.append(discount)
 
         else:
-            discounts.append('0')
+            discount = '0'
 
         country_1 = item.find('":"Страна производства","value":"') + 33
         country = item[country_1:]
         country_2 = country.find('"}]')
         country = country[:country_2]
-        countryies.append(country)
 
 
-'''
-ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
-ind_2 = text.find('data-form-action-login="/customer/account/login/"')
-text = text[ind_1:ind_2]
-start = text.find('<div class="x-product-card-description__microdata-wrap">')
-text=text[start + 56:]
-end = text.find('<img')
-text=text[:end]
-link_1 = text.find('<a href=') + 9
-link_2 = text.find('class="x-product-card__link') - 2
-link = 'https://www.lamoda.ru' + text[link_1:link_2]
-item = requests.get(link)
-item = item.text
-#print(item)
-item_ind = item.find('<div class="popup auth-popup hidden"')
-item = item[item_ind:]
-print(item)
-#print(item.find('Страна производства'))
+        text = text[start:]
+        text = text[end:]
+        table[price] = [code,name,brand,country,discount]
 
-
-name_1 = text.find('<div class="x-product-card-description__product-name">') + 54
-name_2 = text.find('</div></div></div></a>')
-name = text[name_1 + 1:name_2]
-print(name)'''
+table = dict(sorted(table.items(), reverse=True))
+print(table)
+with open('output.txt', 'w') as f_out:
+    print('Артикул','Наименование','Бренд','Цена','Скидка(%)','Страна производителя')
