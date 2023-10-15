@@ -19,12 +19,28 @@ for i in range(pages):
     ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
     ind_2 = text.find('data-form-action-login="/customer/account/login/"')
     text = text[ind_1:ind_2]
-    text = text.split('<div class="')
+    for j in range(60):
+        start = text.find('<div class="x-product-card-description__microdata-wrap">')
+        text=text[start + 56:]
+        end = text.find('<img')
+        text=text[:end]
+        link_1 = text.find('<a href=') + 9
+        link_2 = text.find('class="x-product-card__link') - 2
+        link = 'https://www.lamoda.ru' + text[link_1:link_2]
+        name_1 = text.find('<div class="x-product-card-description__product-name">') + 55
+        name_2 = text.find('</div></div></div></a>')
+        name = text[name_1:name_2]
 '''
 
 ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
 ind_2 = text.find('data-form-action-login="/customer/account/login/"')
 text = text[ind_1:ind_2]
-text = text.split('<div class="x-product-card-description__microdata-wrap">')
-text.pop(0)
-print(text)
+#print(text)
+start = text.find('<div class="x-product-card-description__microdata-wrap">')
+text=text[start + 56:]
+end = text.find('<img')
+text=text[:end]
+name_1 = text.find('<div class="x-product-card-description__product-name">') + 54
+name_2 = text.find('</div></div></div></a>')
+name = text[name_1+1:name_2]
+print(name)
