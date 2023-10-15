@@ -45,7 +45,6 @@ for i in range(pages):
         end_code = code.find('/')
         code = code[:end_code]
         codes.append(code.upper())
-        print(code)
         link = 'https://www.lamoda.ru/' + link[:link_2]
         name_1 = block.find('<div class="x-product-card-description__product-name">') + 55
         name_2 = block.find('</div></div></div></a>')
