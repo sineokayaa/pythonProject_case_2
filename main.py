@@ -83,5 +83,3 @@ for i in range(pages):
 
 table = dict(sorted(table.items(), reverse=True))
 print(table)
-with open('output.txt', 'w') as f_out:
-    print('Артикул','Наименование','Бренд','Цена','Скидка(%)','Страна производителя')
