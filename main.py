@@ -1,5 +1,5 @@
 import requests
-req = input('Введите ваш запрос ')
+req = 'куртка женская'
 url = 'https://www.lamoda.ru/catalogsearch/result/?q='+req
 r = requests.get(url)
 text = r.text
@@ -16,7 +16,15 @@ for i in range(pages):
     url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&pages=' + str(i + 1)
     r = requests.get(url)
     text = r.text
+    ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
+    ind_2 = text.find('data-form-action-login="/customer/account/login/"')
+    text = text[ind_1:ind_2]
+    text = text.split('<div class="')
 '''
-ind = text.find('<span class="d-multifilters-skeleton__checkbox">')
-text = text[ind:]
+
+ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
+ind_2 = text.find('data-form-action-login="/customer/account/login/"')
+text = text[ind_1:ind_2]
+text = text.split('<div class="x-product-card-description__microdata-wrap">')
+text.pop(0)
 print(text)
