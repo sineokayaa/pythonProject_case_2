@@ -99,7 +99,6 @@ for i in range(pages):
         table[code] = [price, name, brand, country, discount]
         #print(table)
 
-
 with open('table.txt', 'w') as f:
     print('Артикул', 'Наименование', 'Бренд', 'Страна производства', 'Скидка', 'Цена', file=f)
     for key, value in table.items():
