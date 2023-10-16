@@ -27,7 +27,6 @@ for i in range(pages):
     url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&sort=price_asc&page=' + str(i + 1)
     r = requests.get(url)
     text = r.text
-    # print(text)
 
     ind_1 = text.find('<span class="d-multifilters-skeleton__checkbox">')
     ind_2 = text.find('data-form-action-login="/customer/account/login/"')
