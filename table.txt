@@ -1,131 +1,157 @@
-            Code                              Name  Price Discount  \
-0   MP002XG036IV                        Бейсболка     360       60   
-1   MP002XB01VSN                        Бейсболка     396       56   
-2   MP002XG0101M                            Кепка     445       55   
-3   MP002XG036IE                        Бейсболка     450       50   
-4   MP002XM0VN3P                        Бейсболка     590       68   
-5   RTLACL718001                        Бейсболка     840       54   
-6   MP002XW088WF                        Бейсболка     500       34   
-7   RTLACR240701                        Бейсболка     680       54   
-8   RTLACO973601                            Кепка     680       59   
-9   RTLACO973201                            Кепка     680       59   
-10  MP002XG02MZW                        Бейсболка     790        0   
-11  RTLACK280801                            Кепка     860       52   
-12  RTLACO928601  Бейсболка ХК Локомотив Ярославль    881       59   
-13  MP002XW1G8N9                            Кепка     890       40   
-14  RTLACK278501                        Бейсболка    1060       52   
-15  RTLACK276501                        Бейсболка    1060       52   
-16  RTLABJ603701                        Бейсболка    1060       51   
-17  MP002XW0JETM                        Бейсболка    1099       45   
-18  RTLABJ738901                        Бейсболка    1060       45   
-19  MP002XW00UT8                        Бейсболка     959        0   
-20  MP002XM1H96V                        Бейсболка    1199        0   
-21  RTLACC441801                            Кепка    1400       59   
-22  RTLACW720301                        Бейсболка    1740       39   
-23  MP002XU05698                        Бейсболка    1790        0   
-24  MP002XU05692                        Бейсболка    1790        0   
-25  RTLABZ450101                            Кепка    1800       59   
-26  MP002XM08BSL                            Кепка    1800        0   
-27  MP002XU04GP3                        Бейсболка    1819       30   
-28  RTLACW456301                   Бейсболка QUOTE   1999       20   
-29  MP002XM161T1                        Бейсболка    1999       20   
-30  MP002XU04ARV                        Бейсболка    1999       20   
-31  MP002XW0820Z                        Бейсболка    1999       20   
-32  MP002XW0YVK5                        Бейсболка    2190       12   
-33  MP002XW0JW3Z                            Кепка    2390        0   
-34  RTLACJ652901                        Бейсболка    3200        0   
-35  MP002XM089R6                        Бейсболка    3390        0   
-36  MP002XW0Z4GE                            Кепка    3690       11   
-37  MP002XW0L17J                            Кепка    3690       26   
-38  MP002XM0N1XG                        Бейсболка    3780       30   
-39  MP002XW00QTI                            Кепка    4190        7   
-40  MP002XU0DICY                        Бейсболка    3990        0   
-41  MP002XU057S9                        Бейсболка    3990        0   
-42  MP002XU04Z04                        Бейсболка    3990        0   
-43  MP002XW0K5FG                            Кепка    3690       16   
-44  MP002XU0567Q                        Бейсболка    3990        0   
-45  MP002XU0564S                        Бейсболка    3990        0   
-46  MP002XU0DIE3                        Бейсболка    3990        0   
-47  RTLACX041801      Бейсболка Ferrari SPTWR Race   4190        0   
-48  MP002XW0K5FD                            Кепка    4190        8   
-49  MP002XW0MGXJ                            Кепка    4190        0   
-50  RTLACX892101                        Бейсболка    4480       19   
-51  MP002XW0Y6G8                    Кепка с ушками   4790        0   
-52  MP002XU03KJT                            Кепка    4990        0   
-53  MP002XU0363N                        Бейсболка    5490        0   
-54  MP002XU045AT                        Бейсболка    5490        0   
-55  RTLACY169401                        Бейсболка    5390       20   
-56  MP002XW160I0                            Кепка    6390        0   
-57  MP002XU04M4L                        Бейсболка    6990        0   
-58  MP002XW1COE6                        Кепка FIFI   7200        0   
-59  RTLACX471001                          Козырек    8219       40   
-60  RTLADA345401                        Бейсболка    8599        0   
-61  MP002XU00P9J                            Кепка    9590        0   
-62  RTLACT259601                        Бейсболка   10100        0   
-63  RTLACT251601                        Бейсболка   10100        0   
+            Code                                               Name Price  \
+0   RTLABF838901  Помада NUDE CREATEUR, кремовая, тон 09 классич...   350   
+1   RTLAAD502201  Помада PRALINE Lipstick, легкий глянцевый фини...   370   
+2   LO006LWLRFW4  Помада COLOR RICHE Увлажняющая, сатиновый фини...   399   
+3   SE039LWYWX03  Помада MATTE LASTING LIPSTICK SPF15 стойкая ма...   424   
+4   MP002XW003UO  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+5   MP002XW003UP  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+6   MP002XW003UU  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+7   RTLABF840601  Помада жидкая FEMME FATALE стойкая матовая, то...   450   
+8   RTLACU098701  Помада PURE MATTE LIPSTICK, стойкий матовый фи...   488   
+9   RTLABO910801  Помада INFLUENCE, полуматовый стойкий финиш, т...   510   
+10  SE039LWUWZ33  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   585   
+11  MP002XW19ZSN  Помада MY LIPSTICK Full Color, кремовая с сати...   615   
+12  RTLACU096701  Помада STAYMAX Powder Matte Lipstick, матовая ...   615   
+13  RTLACU252201  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
+14  RTLACU252301  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
+15  RTLACK726601  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   624   
+16  MP002XW0R12T                                       Брошь Помада   649   
+17  MP002XW109G5  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
+18  MP002XW109GD  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
+19  MP002XW10FU3  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
+20  MP002XW109HM  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
+21  MP002XW109HP  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
+22  MP002XW0KVT5  Помада жидкая MATTE LIP CREAM матовая стойкая,...   699   
+23  RTLACJ750901  Помада MILANO RED LONG LASTING LIPSTICK, 2в1 п...   713   
+24  RTLACJ750101  Помада MILANO RED LIPSTICK SPF15, кремовая, то...   770   
+25  RTLACJ751201  Помада MILANO RED LIPSTICK SPF15, кремовая, то...   770   
+26  RTLACK954501  Помада COLOR RICHE Увлажняющая с матовым финиш...   860   
+27  RTLACK953001  Помада-карандаш INFAILLIBLE MATTE LIP CRAYON, ...   880   
+28  RTLACY937501  Помада жидкая MAT PASSION LIP FLUID, матовый ф...   938   
+29  RTLACU253301  Помада COMPLETE CARE LIP COLOR, тон 33 красные...  1120   
+30  RO048LWKSHO2  Помада VELVET WHISPERS Full Colour Matt Lipsti...  1134   
+31  MP002XW0BS8D  Помада TRUE COLOR, увлажнение и объем, на геле...  1199   
+32  RTLACD162101  Помада VAMP! Lipstick, объем и экстремальный ц...  1245   
+33  RO048LWKSHO3  Помада VELVET WHISPERS Full Colour Matt Lipsti...  1323   
+34  RTLACQ614101  Помада LIPSTICK VELVET TOUCH, бархатный полума...  1350   
+35  RTLACQ614201  Помада LIPSTICK VELVET TOUCH, бархатный полума...  1350   
+36  MP002XW0LRZ2  Помада MAGIC MATTE LIPSTICK, с матовым финишем...  1450   
+37  MP002XW0LRZD  Помада MAGIC MATTE LIPSTICK, с матовым финишем...  1450   
+38  RTLACV720001  Помада VELVET PASSION Matte Lipstick, матовая ...  1510   
+39  RTLACJ215001   Помада жидкая MILLEBACI Устойчивая, тон 78, 6 мл  1603   
+40  RTLACJ214901   Помада жидкая MILLEBACI Устойчивая, тон 76, 6 мл  1718   
+41  MP002XW08WIJ  Пигмент для макияжа Concrete Ruby матовая пома...  1750   
+42  MP002XW08WIE  Средство Concrete Hot Red красная матовая пома...  1750   
+43  RTLACU609001  Помада HYDRATING SILKY Lipstick, увлажняющая, ...  1832   
+44  RTLACU608701  Помада HYDRATING SILKY Lipstick, увлажняющая, ...  1832   
+45  RTLACU609101  Помада HYDRATING SILKY Lipstick, увлажняющая, ...  1832   
+46  MP002XW0C6Y4  Помада KISS CATCHER LIPSTICK, увлажняющая, тон...  1840   
+47  RTLACY029301  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+48  RTLACY790401  Помада JOLI ROUGE, с атласным эффектом, тон 74...  2219   
+49  RTLACY030401  Помада JOLI ROUGE SHINE, с сияющим эффектом, т...  2219   
+50  RTLACY030001  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+51  RTLACY029101  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+52  RTLACY029901  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+53  MP002XW08PHF  Помада SHEER LIPSTICK Увлажняющая, тон 01 чару...  2290   
+54  RTLACM243601  Помада EVEN BETTER POP REDS Увлажняющая, с сия...  2363   
+55  RTLACY029501  Помада JOLI ROUGE, с атласным эффектом, тон 70...  2378   
+56  RTLACY031801  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
+57  RTLACY030201  Помада JOLI ROUGE SHINE, с сияющим эффектом, т...  2378   
+58  RTLACY792001  Помада JOLI ROUGE, с атласным эффектом, тон 73...  2378   
+59  RTLACY032001  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
+60  RTLABF838901  Помада NUDE CREATEUR, кремовая, тон 09 классич...   350   
+61  RTLAAD502201  Помада PRALINE Lipstick, легкий глянцевый фини...   370   
+62  LO006LWLRFW4  Помада COLOR RICHE Увлажняющая, сатиновый фини...   399   
+63  SE039LWYWX03  Помада MATTE LASTING LIPSTICK SPF15 стойкая ма...   424   
+64  MP002XW003UO  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+65  MP002XW003UP  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+66  MP002XW003UU  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+67  RTLABF840601  Помада жидкая FEMME FATALE стойкая матовая, то...   450   
+68  RTLACU098701  Помада PURE MATTE LIPSTICK, стойкий матовый фи...   488   
+69  RTLABO910801  Помада INFLUENCE, полуматовый стойкий финиш, т...   510   
+70  SE039LWUWZ33  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   585   
+71  MP002XW19ZSN  Помада MY LIPSTICK Full Color, кремовая с сати...   615   
+72  RTLACU096701  Помада STAYMAX Powder Matte Lipstick, матовая ...   615   
+73  RTLACU252201  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
+74  RTLACU252301  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
+75  RTLACK726601  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   624   
+76  MP002XW0R12T                                       Брошь Помада   649   
 
-                     Brand  Country  
-0               play-today    Китай  
-1               play-today    Китай  
-2              chudo-kroha   Россия  
-3               play-today    Китай  
-4                    staix   Россия  
-5   unitedcolorsofbenetton    Китай  
-6                 anymalls   Россия  
-7                   tuctuc    Китай  
-8             levelprokids   Россия  
-9             levelprokids   Россия  
-10              dananddani   Россия  
-11                    tutu    Китай  
-12          atributikaclub    Китай  
-13                   opium    Китай  
-14                    tutu    Китай  
-15                    tutu    Китай  
-16                    tutu    Китай  
-17                 flioraj   Россия  
-18                    tutu    Китай  
-19                    jlab    Китай  
-20                    jlab    Китай  
-21                levelpro   Россия  
-22               pepejeans    Китай  
-23                 pfkcska    Китай  
-24                 pfkcska    Китай  
-25            levelprokids   Россия  
-26                lf-label   Россия  
-27                columbia  Вьетнам  
-28                   mango    Китай  
-29               be-snazzy   Польша  
-30               be-snazzy   Польша  
-31               be-snazzy   Польша  
-32                fabretti    Китай  
-33                  landre   Россия  
-34             bikkembergs   Турция  
-35                 smithys    Китай  
-36                 siringa   Россия  
-37                 siringa   Россия  
-38                   cudgi   Россия  
-39                 siringa   Россия  
-40          goorinbrothers    Китай  
-41          goorinbrothers    Китай  
-42                 capslab    Китай  
-43                 siringa   Россия  
-44                 capslab    Китай  
-45                 capslab    Китай  
-46          goorinbrothers    Китай  
-47                    puma    Китай  
-48                 siringa   Россия  
-49                  landre   Россия  
-50                  replay    Китай  
-51                  landre   Россия  
-52                  herman   Италия  
-53                 stetson    Китай  
-54                 stetson    Китай  
-55                     n21    Китай  
-56                   antar   Россия  
-57                 stetson    Китай  
-58                   canoe   Россия  
-59                moschino   Италия  
-60                  diesel    Китай  
-61                 stetson    Китай  
-62           karllagerfeld    Китай  
-63           karllagerfeld    Китай  
+   Discount              Brand   Country  
+0         0      vivienne-sabo    Россия  
+1         0             divage    Россия  
+2        45        lorealparis   Франция  
+3         0          seventeen    Греция  
+4        33         revolution     Китай  
+5        33         revolution     Китай  
+6        33         revolution     Китай  
+7         0      vivienne-sabo    Италия  
+8         0          focallure     Китай  
+9         0    influencebeauty    Россия  
+10        0          seventeen    Греция  
+11        0              astra    Италия  
+12        0          focallure     Китай  
+13        0          seventeen    Греция  
+14        0          seventeen    Греция  
+15        0          seventeen    Греция  
+16       18           monolama    Россия  
+17       39             limoni    Россия  
+18       35             limoni    Россия  
+19       39             limoni    Россия  
+20       39             limoni    Россия  
+21       39             limoni    Россия  
+22       27             limoni    Италия  
+23        0            deborah    Италия  
+24        0            deborah    Италия  
+25        0            deborah    Италия  
+26        0        lorealparis   Франция  
+27        0        lorealparis  Германия  
+28        0            artdeco  Германия  
+29        0      makeupfactory  Германия  
+30        0    rougebunnyrouge    Италия  
+31       20               gade    Италия  
+32        0               pupa    Италия  
+33        0    rougebunnyrouge    Италия  
+34        0              nouba    Италия  
+35        0              nouba    Италия  
+36        0          manly-pro    Италия  
+37        0          manly-pro    Италия  
+38        0         kikomilano    Италия  
+39        0              nouba    Италия  
+40        0              nouba    Италия  
+41        0  krygina-cosmetics    Россия  
+42        0  krygina-cosmetics    Россия  
+43        0             zeesea     Китай  
+44        0             zeesea     Китай  
+45        0             zeesea     Китай  
+46       20             inglot    Польша  
+47        0            clarins    Италия  
+48        0            clarins    Италия  
+49        0            clarins   Франция  
+50        0            clarins    Италия  
+51        0            clarins    Италия  
+52        0            clarins    Италия  
+53       22        dr-hauschka  Германия  
+54        0           clinique   Бельгия  
+55        0            clarins    Италия  
+56        0            clarins   Франция  
+57        0            clarins   Франция  
+58        0            clarins    Италия  
+59        0            clarins   Франция  
+60        0      vivienne-sabo    Россия  
+61        0             divage    Россия  
+62       45        lorealparis   Франция  
+63        0          seventeen    Греция  
+64       33         revolution     Китай  
+65       33         revolution     Китай  
+66       33         revolution     Китай  
+67        0      vivienne-sabo    Италия  
+68        0          focallure     Китай  
+69        0    influencebeauty    Россия  
+70        0          seventeen    Греция  
+71        0              astra    Италия  
+72        0          focallure     Китай  
+73        0          seventeen    Греция  
+74        0          seventeen    Греция  
+75        0          seventeen    Греция  
+76       18           monolama    Россия  
