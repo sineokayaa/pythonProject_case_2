@@ -1,3 +1,9 @@
+"""
+Title
+Group:
+Sineokaya Anastasia 58
+Varfolomeeva Viktoria
+"""
 import requests
 import pandas as pd
 
@@ -103,8 +109,8 @@ table = pd.DataFrame(
     {'Code': codes, 'Name': names, 'Price': prices, 'Discount': discounts, 'Brand': brands, 'Country': countries})
 pd.set_option('display.max_columns', 7)
 pd.set_option('display.max_rows', len(codes))
-
 final_table = table.sort_values(by=['Price'])
+print(table)
 
 with open('table.txt', 'w') as f:
-    print(final_table, file=f)
+    print(table, file=f)

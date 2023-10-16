@@ -1,3 +1,131 @@
-           Code    Name Price Discount                 Brand  Country
-1  MP002XW0324T  Трусы   2900        0  calvinkleinunderwear  Таиланд
-0  MP002XW0346W  Трусы    484       14             allabuone    Китай
+            Code                              Name  Price Discount  \
+0   MP002XG036IV                        Бейсболка     360       60   
+1   MP002XB01VSN                        Бейсболка     396       56   
+2   MP002XG0101M                            Кепка     445       55   
+3   MP002XG036IE                        Бейсболка     450       50   
+4   MP002XM0VN3P                        Бейсболка     590       68   
+5   RTLACL718001                        Бейсболка     840       54   
+6   MP002XW088WF                        Бейсболка     500       34   
+7   RTLACR240701                        Бейсболка     680       54   
+8   RTLACO973601                            Кепка     680       59   
+9   RTLACO973201                            Кепка     680       59   
+10  MP002XG02MZW                        Бейсболка     790        0   
+11  RTLACK280801                            Кепка     860       52   
+12  RTLACO928601  Бейсболка ХК Локомотив Ярославль    881       59   
+13  MP002XW1G8N9                            Кепка     890       40   
+14  RTLACK278501                        Бейсболка    1060       52   
+15  RTLACK276501                        Бейсболка    1060       52   
+16  RTLABJ603701                        Бейсболка    1060       51   
+17  MP002XW0JETM                        Бейсболка    1099       45   
+18  RTLABJ738901                        Бейсболка    1060       45   
+19  MP002XW00UT8                        Бейсболка     959        0   
+20  MP002XM1H96V                        Бейсболка    1199        0   
+21  RTLACC441801                            Кепка    1400       59   
+22  RTLACW720301                        Бейсболка    1740       39   
+23  MP002XU05698                        Бейсболка    1790        0   
+24  MP002XU05692                        Бейсболка    1790        0   
+25  RTLABZ450101                            Кепка    1800       59   
+26  MP002XM08BSL                            Кепка    1800        0   
+27  MP002XU04GP3                        Бейсболка    1819       30   
+28  RTLACW456301                   Бейсболка QUOTE   1999       20   
+29  MP002XM161T1                        Бейсболка    1999       20   
+30  MP002XU04ARV                        Бейсболка    1999       20   
+31  MP002XW0820Z                        Бейсболка    1999       20   
+32  MP002XW0YVK5                        Бейсболка    2190       12   
+33  MP002XW0JW3Z                            Кепка    2390        0   
+34  RTLACJ652901                        Бейсболка    3200        0   
+35  MP002XM089R6                        Бейсболка    3390        0   
+36  MP002XW0Z4GE                            Кепка    3690       11   
+37  MP002XW0L17J                            Кепка    3690       26   
+38  MP002XM0N1XG                        Бейсболка    3780       30   
+39  MP002XW00QTI                            Кепка    4190        7   
+40  MP002XU0DICY                        Бейсболка    3990        0   
+41  MP002XU057S9                        Бейсболка    3990        0   
+42  MP002XU04Z04                        Бейсболка    3990        0   
+43  MP002XW0K5FG                            Кепка    3690       16   
+44  MP002XU0567Q                        Бейсболка    3990        0   
+45  MP002XU0564S                        Бейсболка    3990        0   
+46  MP002XU0DIE3                        Бейсболка    3990        0   
+47  RTLACX041801      Бейсболка Ferrari SPTWR Race   4190        0   
+48  MP002XW0K5FD                            Кепка    4190        8   
+49  MP002XW0MGXJ                            Кепка    4190        0   
+50  RTLACX892101                        Бейсболка    4480       19   
+51  MP002XW0Y6G8                    Кепка с ушками   4790        0   
+52  MP002XU03KJT                            Кепка    4990        0   
+53  MP002XU0363N                        Бейсболка    5490        0   
+54  MP002XU045AT                        Бейсболка    5490        0   
+55  RTLACY169401                        Бейсболка    5390       20   
+56  MP002XW160I0                            Кепка    6390        0   
+57  MP002XU04M4L                        Бейсболка    6990        0   
+58  MP002XW1COE6                        Кепка FIFI   7200        0   
+59  RTLACX471001                          Козырек    8219       40   
+60  RTLADA345401                        Бейсболка    8599        0   
+61  MP002XU00P9J                            Кепка    9590        0   
+62  RTLACT259601                        Бейсболка   10100        0   
+63  RTLACT251601                        Бейсболка   10100        0   
+
+                     Brand  Country  
+0               play-today    Китай  
+1               play-today    Китай  
+2              chudo-kroha   Россия  
+3               play-today    Китай  
+4                    staix   Россия  
+5   unitedcolorsofbenetton    Китай  
+6                 anymalls   Россия  
+7                   tuctuc    Китай  
+8             levelprokids   Россия  
+9             levelprokids   Россия  
+10              dananddani   Россия  
+11                    tutu    Китай  
+12          atributikaclub    Китай  
+13                   opium    Китай  
+14                    tutu    Китай  
+15                    tutu    Китай  
+16                    tutu    Китай  
+17                 flioraj   Россия  
+18                    tutu    Китай  
+19                    jlab    Китай  
+20                    jlab    Китай  
+21                levelpro   Россия  
+22               pepejeans    Китай  
+23                 pfkcska    Китай  
+24                 pfkcska    Китай  
+25            levelprokids   Россия  
+26                lf-label   Россия  
+27                columbia  Вьетнам  
+28                   mango    Китай  
+29               be-snazzy   Польша  
+30               be-snazzy   Польша  
+31               be-snazzy   Польша  
+32                fabretti    Китай  
+33                  landre   Россия  
+34             bikkembergs   Турция  
+35                 smithys    Китай  
+36                 siringa   Россия  
+37                 siringa   Россия  
+38                   cudgi   Россия  
+39                 siringa   Россия  
+40          goorinbrothers    Китай  
+41          goorinbrothers    Китай  
+42                 capslab    Китай  
+43                 siringa   Россия  
+44                 capslab    Китай  
+45                 capslab    Китай  
+46          goorinbrothers    Китай  
+47                    puma    Китай  
+48                 siringa   Россия  
+49                  landre   Россия  
+50                  replay    Китай  
+51                  landre   Россия  
+52                  herman   Италия  
+53                 stetson    Китай  
+54                 stetson    Китай  
+55                     n21    Китай  
+56                   antar   Россия  
+57                 stetson    Китай  
+58                   canoe   Россия  
+59                moschino   Италия  
+60                  diesel    Китай  
+61                 stetson    Китай  
+62           karllagerfeld    Китай  
+63           karllagerfeld    Китай  
