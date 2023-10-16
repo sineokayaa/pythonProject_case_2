@@ -1,4 +1,0 @@
-FOUND = ''
-RESULTS = ''
-COUNTRIES = ''
-CODE = ''
