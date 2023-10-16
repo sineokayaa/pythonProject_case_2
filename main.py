@@ -2,7 +2,7 @@
 Title
 Group:
 Sineokaya Anastasia 58
-Varfolomeeva Viktoria 65
+Varfolomeeva Viktoria 55
 """
 import requests
 import pandas as pd
