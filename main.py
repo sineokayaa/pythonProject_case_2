@@ -25,7 +25,6 @@ else:
 
 for i in range(pages):
     url = 'https://www.lamoda.ru/catalogsearch/result/?q=' + req + '&sort=price_asc&page=' + str(i + 1)
-    #print(url)
     r = requests.get(url)
     text = r.text
     # print(text)
