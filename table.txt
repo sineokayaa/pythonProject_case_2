@@ -1,157 +1,95 @@
             Code                                               Name Price  \
-0   RTLABF838901  Помада NUDE CREATEUR, кремовая, тон 09 классич...   350   
-1   RTLAAD502201  Помада PRALINE Lipstick, легкий глянцевый фини...   370   
-2   LO006LWLRFW4  Помада COLOR RICHE Увлажняющая, сатиновый фини...   399   
-3   SE039LWYWX03  Помада MATTE LASTING LIPSTICK SPF15 стойкая ма...   424   
-4   MP002XW003UO  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
-5   MP002XW003UP  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
-6   MP002XW003UU  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
-7   RTLABF840601  Помада жидкая FEMME FATALE стойкая матовая, то...   450   
-8   RTLACU098701  Помада PURE MATTE LIPSTICK, стойкий матовый фи...   488   
-9   RTLABO910801  Помада INFLUENCE, полуматовый стойкий финиш, т...   510   
-10  SE039LWUWZ33  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   585   
-11  MP002XW19ZSN  Помада MY LIPSTICK Full Color, кремовая с сати...   615   
-12  RTLACU096701  Помада STAYMAX Powder Matte Lipstick, матовая ...   615   
-13  RTLACU252201  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
-14  RTLACU252301  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
-15  RTLACK726601  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   624   
-16  MP002XW0R12T                                       Брошь Помада   649   
-17  MP002XW109G5  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
-18  MP002XW109GD  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
-19  MP002XW10FU3  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
-20  MP002XW109HM  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
-21  MP002XW109HP  Помада BULLET LIPSTICK, увлажняющая с витамина...   699   
-22  MP002XW0KVT5  Помада жидкая MATTE LIP CREAM матовая стойкая,...   699   
-23  RTLACJ750901  Помада MILANO RED LONG LASTING LIPSTICK, 2в1 п...   713   
-24  RTLACJ750101  Помада MILANO RED LIPSTICK SPF15, кремовая, то...   770   
-25  RTLACJ751201  Помада MILANO RED LIPSTICK SPF15, кремовая, то...   770   
-26  RTLACK954501  Помада COLOR RICHE Увлажняющая с матовым финиш...   860   
-27  RTLACK953001  Помада-карандаш INFAILLIBLE MATTE LIP CRAYON, ...   880   
-28  RTLACY937501  Помада жидкая MAT PASSION LIP FLUID, матовый ф...   938   
-29  RTLACU253301  Помада COMPLETE CARE LIP COLOR, тон 33 красные...  1120   
-30  RO048LWKSHO2  Помада VELVET WHISPERS Full Colour Matt Lipsti...  1134   
-31  MP002XW0BS8D  Помада TRUE COLOR, увлажнение и объем, на геле...  1199   
-32  RTLACD162101  Помада VAMP! Lipstick, объем и экстремальный ц...  1245   
-33  RO048LWKSHO3  Помада VELVET WHISPERS Full Colour Matt Lipsti...  1323   
-34  RTLACQ614101  Помада LIPSTICK VELVET TOUCH, бархатный полума...  1350   
-35  RTLACQ614201  Помада LIPSTICK VELVET TOUCH, бархатный полума...  1350   
-36  MP002XW0LRZ2  Помада MAGIC MATTE LIPSTICK, с матовым финишем...  1450   
-37  MP002XW0LRZD  Помада MAGIC MATTE LIPSTICK, с матовым финишем...  1450   
-38  RTLACV720001  Помада VELVET PASSION Matte Lipstick, матовая ...  1510   
-39  RTLACJ215001   Помада жидкая MILLEBACI Устойчивая, тон 78, 6 мл  1603   
-40  RTLACJ214901   Помада жидкая MILLEBACI Устойчивая, тон 76, 6 мл  1718   
-41  MP002XW08WIJ  Пигмент для макияжа Concrete Ruby матовая пома...  1750   
-42  MP002XW08WIE  Средство Concrete Hot Red красная матовая пома...  1750   
-43  RTLACU609001  Помада HYDRATING SILKY Lipstick, увлажняющая, ...  1832   
-44  RTLACU608701  Помада HYDRATING SILKY Lipstick, увлажняющая, ...  1832   
-45  RTLACU609101  Помада HYDRATING SILKY Lipstick, увлажняющая, ...  1832   
-46  MP002XW0C6Y4  Помада KISS CATCHER LIPSTICK, увлажняющая, тон...  1840   
-47  RTLACY029301  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
-48  RTLACY790401  Помада JOLI ROUGE, с атласным эффектом, тон 74...  2219   
-49  RTLACY030401  Помада JOLI ROUGE SHINE, с сияющим эффектом, т...  2219   
-50  RTLACY030001  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
-51  RTLACY029101  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
-52  RTLACY029901  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
-53  MP002XW08PHF  Помада SHEER LIPSTICK Увлажняющая, тон 01 чару...  2290   
-54  RTLACM243601  Помада EVEN BETTER POP REDS Увлажняющая, с сия...  2363   
-55  RTLACY029501  Помада JOLI ROUGE, с атласным эффектом, тон 70...  2378   
-56  RTLACY031801  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
-57  RTLACY030201  Помада JOLI ROUGE SHINE, с сияющим эффектом, т...  2378   
-58  RTLACY792001  Помада JOLI ROUGE, с атласным эффектом, тон 73...  2378   
-59  RTLACY032001  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
-60  RTLABF838901  Помада NUDE CREATEUR, кремовая, тон 09 классич...   350   
-61  RTLAAD502201  Помада PRALINE Lipstick, легкий глянцевый фини...   370   
-62  LO006LWLRFW4  Помада COLOR RICHE Увлажняющая, сатиновый фини...   399   
-63  SE039LWYWX03  Помада MATTE LASTING LIPSTICK SPF15 стойкая ма...   424   
-64  MP002XW003UO  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
-65  MP002XW003UP  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
-66  MP002XW003UU  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
-67  RTLABF840601  Помада жидкая FEMME FATALE стойкая матовая, то...   450   
-68  RTLACU098701  Помада PURE MATTE LIPSTICK, стойкий матовый фи...   488   
-69  RTLABO910801  Помада INFLUENCE, полуматовый стойкий финиш, т...   510   
-70  SE039LWUWZ33  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   585   
-71  MP002XW19ZSN  Помада MY LIPSTICK Full Color, кремовая с сати...   615   
-72  RTLACU096701  Помада STAYMAX Powder Matte Lipstick, матовая ...   615   
-73  RTLACU252201  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
-74  RTLACU252301  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
-75  RTLACK726601  Помада жидкая ALL DAY LIP COLOR &amp; TOP GLOS...   624   
-76  MP002XW0R12T                                       Брошь Помада   649   
+0   SE039LWYWX03  Помада MATTE LASTING LIPSTICK SPF15 стойкая ма...   424   
+1   MP002XW003UO  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+2   MP002XW003UP  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+3   MP002XW003UU  Помада жидкая MATTE LIP с матовым бархатным фи...   449   
+4   RTLABF840601  Помада жидкая FEMME FATALE стойкая матовая, то...   450   
+5   RTLACU098701  Помада PURE MATTE LIPSTICK, стойкий матовый фи...   488   
+6   RTLACU096701  Помада STAYMAX Powder Matte Lipstick, матовая ...   615   
+7   RTLACU252201  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
+8   RTLACU252301  Помада жидкая MATLISHIOUS SUPER STAY LIP COLOR...   624   
+9   MP002XW0KVT5  Помада жидкая MATTE LIP CREAM матовая стойкая,...   699   
+10  RTLACJ750901  Помада MILANO RED LONG LASTING LIPSTICK, 2в1 п...   713   
+11  RTLACK954501  Помада COLOR RICHE Увлажняющая с матовым финиш...   860   
+12  RTLACK953001  Помада-карандаш INFAILLIBLE MATTE LIP CRAYON, ...   880   
+13  RTLACY937501  Помада жидкая MAT PASSION LIP FLUID, матовый ф...   938   
+14  RO048LWKSHO2  Помада VELVET WHISPERS Full Colour Matt Lipsti...  1134   
+15  RO048LWKSHO3  Помада VELVET WHISPERS Full Colour Matt Lipsti...  1323   
+16  RTLACQ614101  Помада LIPSTICK VELVET TOUCH, бархатный полума...  1350   
+17  RTLACQ614201  Помада LIPSTICK VELVET TOUCH, бархатный полума...  1350   
+18  MP002XW0LRZ2  Помада MAGIC MATTE LIPSTICK, с матовым финишем...  1450   
+19  MP002XW0LRZD  Помада MAGIC MATTE LIPSTICK, с матовым финишем...  1450   
+20  RTLACV720001  Помада VELVET PASSION Matte Lipstick, матовая ...  1510   
+21  MP002XW08WIE  Средство Concrete Hot Red красная матовая пома...  1750   
+22  MP002XW08WIJ  Пигмент для макияжа Concrete Ruby матовая пома...  1750   
+23  RTLACY029301  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+24  RTLACY790401  Помада JOLI ROUGE, с атласным эффектом, тон 74...  2219   
+25  RTLACY030401  Помада JOLI ROUGE SHINE, с сияющим эффектом, т...  2219   
+26  RTLACY030001  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+27  RTLACY029101  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+28  RTLACY029901  Помада JOLI ROUGE, с атласным эффектом, тон 77...  2219   
+29  RTLACY029501  Помада JOLI ROUGE, с атласным эффектом, тон 70...  2378   
+30  RTLACY031801  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
+31  RTLACY030201  Помада JOLI ROUGE SHINE, с сияющим эффектом, т...  2378   
+32  RTLACY792001  Помада JOLI ROUGE, с атласным эффектом, тон 73...  2378   
+33  RTLACY032001  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
+34  RTLACY031901  Помада JOLI ROUGE VELVET, с матовым эффектом, ...  2378   
+35  RTLACY028401  Помада JOLI ROUGE, с атласным эффектом, тон 74...  2378   
+36  RTLACY028601  Помада JOLI ROUGE, с атласным эффектом, тон 76...  2378   
+37  MA006LWKPRQ3  Помада жидкая RETRO MATTE LIQUID LIPCOLOUR, то...  2790   
+38  MA006LWKPQY1  Помада MATTE LIPSTICK Кремовая, матовая с плот...  2390   
+39  RTLACQ832101  Помада жидкая LUNAR LUCK Powder Kiss Liquid Li...  2499   
+40  RTLACP634301  Помада POWDER KISS LIPSTICK Увлажняющая, матов...  2500   
+41  MA006LWKPRQ2  Помада жидкая RETRO MATTE LIQUID LIPCOLOUR, то...  2390   
+42  RTLABA375001  Помада жидкая MAC X LISA Powder Kiss Liquid Li...  2910   
+43  RTLABA369301  Помада жидкая POWDER KISS LIQUID LIPCOLOUR с м...  2990   
+44  RTLADB529201  Помада MATTE LIPSTICK, стойкая с матовым финиш...  3180   
+45  RTLACZ963701  Помада жидкая Locked Kiss Ink™ 24HR Lipcolour,...  3400   
 
-   Discount              Brand   Country  
-0         0      vivienne-sabo    Россия  
-1         0             divage    Россия  
-2        45        lorealparis   Франция  
-3         0          seventeen    Греция  
-4        33         revolution     Китай  
-5        33         revolution     Китай  
-6        33         revolution     Китай  
-7         0      vivienne-sabo    Италия  
-8         0          focallure     Китай  
-9         0    influencebeauty    Россия  
-10        0          seventeen    Греция  
-11        0              astra    Италия  
-12        0          focallure     Китай  
-13        0          seventeen    Греция  
-14        0          seventeen    Греция  
-15        0          seventeen    Греция  
-16       18           monolama    Россия  
-17       39             limoni    Россия  
-18       35             limoni    Россия  
-19       39             limoni    Россия  
-20       39             limoni    Россия  
-21       39             limoni    Россия  
-22       27             limoni    Италия  
-23        0            deborah    Италия  
-24        0            deborah    Италия  
-25        0            deborah    Италия  
-26        0        lorealparis   Франция  
-27        0        lorealparis  Германия  
-28        0            artdeco  Германия  
-29        0      makeupfactory  Германия  
-30        0    rougebunnyrouge    Италия  
-31       20               gade    Италия  
-32        0               pupa    Италия  
-33        0    rougebunnyrouge    Италия  
-34        0              nouba    Италия  
-35        0              nouba    Италия  
-36        0          manly-pro    Италия  
-37        0          manly-pro    Италия  
-38        0         kikomilano    Италия  
-39        0              nouba    Италия  
-40        0              nouba    Италия  
-41        0  krygina-cosmetics    Россия  
-42        0  krygina-cosmetics    Россия  
-43        0             zeesea     Китай  
-44        0             zeesea     Китай  
-45        0             zeesea     Китай  
-46       20             inglot    Польша  
-47        0            clarins    Италия  
-48        0            clarins    Италия  
-49        0            clarins   Франция  
-50        0            clarins    Италия  
-51        0            clarins    Италия  
-52        0            clarins    Италия  
-53       22        dr-hauschka  Германия  
-54        0           clinique   Бельгия  
-55        0            clarins    Италия  
-56        0            clarins   Франция  
-57        0            clarins   Франция  
-58        0            clarins    Италия  
-59        0            clarins   Франция  
-60        0      vivienne-sabo    Россия  
-61        0             divage    Россия  
-62       45        lorealparis   Франция  
-63        0          seventeen    Греция  
-64       33         revolution     Китай  
-65       33         revolution     Китай  
-66       33         revolution     Китай  
-67        0      vivienne-sabo    Италия  
-68        0          focallure     Китай  
-69        0    influencebeauty    Россия  
-70        0          seventeen    Греция  
-71        0              astra    Италия  
-72        0          focallure     Китай  
-73        0          seventeen    Греция  
-74        0          seventeen    Греция  
-75        0          seventeen    Греция  
-76       18           monolama    Россия  
+   Discount              Brand            Country  
+0         0          seventeen             Греция  
+1        33         revolution              Китай  
+2        33         revolution              Китай  
+3        33         revolution              Китай  
+4         0      vivienne-sabo             Италия  
+5         0          focallure              Китай  
+6         0          focallure              Китай  
+7         0          seventeen             Греция  
+8         0          seventeen             Греция  
+9        27             limoni             Италия  
+10        0            deborah             Италия  
+11        0        lorealparis            Франция  
+12        0        lorealparis           Германия  
+13        0            artdeco           Германия  
+14        0    rougebunnyrouge             Италия  
+15        0    rougebunnyrouge             Италия  
+16        0              nouba             Италия  
+17        0              nouba             Италия  
+18        0          manly-pro             Италия  
+19        0          manly-pro             Италия  
+20        0         kikomilano             Италия  
+21        0  krygina-cosmetics             Россия  
+22        0  krygina-cosmetics             Россия  
+23        0            clarins             Италия  
+24        0            clarins             Италия  
+25        0            clarins            Франция  
+26        0            clarins             Италия  
+27        0            clarins             Италия  
+28        0            clarins             Италия  
+29        0            clarins             Италия  
+30        0            clarins            Франция  
+31        0            clarins            Франция  
+32        0            clarins             Италия  
+33        0            clarins            Франция  
+34        0            clarins            Франция  
+35        0            clarins             Италия  
+36        0            clarins             Италия  
+37        0                mac             Италия  
+38        0                mac            Бельгия  
+39        0                mac  Корея, Республика  
+40        0                mac             Италия  
+41        0                mac             Италия  
+42        0                mac  Корея, Республика  
+43        0                mac  Корея, Республика  
+44        0              babor           Германия  
+45        0                mac            Бельгия  
