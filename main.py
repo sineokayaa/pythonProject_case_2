@@ -2,7 +2,7 @@
 Title
 Group:
 Sineokaya Anastasia 58
-Varfolomeeva Viktoria
+Varfolomeeva Viktoria 65
 """
 import requests
 import pandas as pd
@@ -110,7 +110,7 @@ table = pd.DataFrame(
 pd.set_option('display.max_columns', 7)
 pd.set_option('display.max_rows', len(codes))
 final_table = table.sort_values(by=['Price'])
-print(table)
+print(final_table)
 
 with open('table.txt', 'w') as f:
     print(table, file=f)
